@@ -1,0 +1,20 @@
+{
+  "name": "internal-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./button": "./dist/button.js",
+    "./menu": "./dist/menu.js",
+    "./load-popover": "./dist/load-popover.js"
+  },
+  "scripts": {
+    "build": "tsdown"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "react-tiny-popover": "8.1.6"
+  }
+}
